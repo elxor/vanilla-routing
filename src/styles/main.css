@@ -1,0 +1,77 @@
+@import "./header.css";
+
+*, ::after, ::before {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background-color: transparent;
+	font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.home>p {
+    margin-bottom: 10px;
+}
+
+.link {
+    color: #2F6EA5;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+.func {
+    text-align: center;
+}
+
+.func>p {
+    margin-bottom: 20px;
+}
+
+.btnClick {
+    background-color: #2F6EA5;
+    color: #fff;
+    padding: 7px 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btnClick:hover {
+    opacity: 0.8;
+}
+
+#outer {
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+.notfound>p {
+    margin-bottom: 5px;
+}
